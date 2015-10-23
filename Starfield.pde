@@ -3,7 +3,6 @@ void setup()
 {
 	size(500,500);//your code here
 	background(10,10,10);
-	fill(100);
 	for (int i = 0; i < potato.length; i++)
 	{
 		if (Math.random() < .99)
@@ -121,7 +120,7 @@ class JumboParticle implements Particle//uses inheritance
 	{
 		theX = 100 + (Math.random()*100-50);
 		theY = 100 + (Math.random()*100-50);
-		colour = color(0,128,255);
+		colour = color(1);
 		speed = 1;
 		theAngle = Math.PI*1*Math.random();
 	}
