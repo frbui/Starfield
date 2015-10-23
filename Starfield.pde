@@ -42,7 +42,7 @@ class NormalParticle implements Particle
 	{
 		theX = 100 + (Math.random()*100-50);
 		theY = 100 + (Math.random()*100-50);
-		colour = color(255,51,51);
+		colour = color(255,128,0);
 		speed = 2;
 		theAngle = Math.PI*2*Math.random();
 	}
@@ -84,7 +84,7 @@ class OddballParticle implements Particle //uses an interface
 	{
 		theX = 70 + (Math.random()*100-50);
 		theY = 100 + (Math.random()*100-50);
-		colour = color(0,128,255);
+		colour = color(255,255,105);
 		speed = 9;
 		theAngle = Math.PI*1*Math.random();
 	}
@@ -132,7 +132,7 @@ class JumboParticle implements Particle//uses inheritance
 	}
 	public void show()
 	{
-		fill(0,204,204);
+		fill(1);
 		rect((float)theX,(float)theY,50,50);
 	}
 	public void reset()
